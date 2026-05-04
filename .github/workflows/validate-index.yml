@@ -160,22 +160,57 @@ jobs:
         if: always() && steps.detect.outcome == 'success'
         env:
           PR_AUTHOR_ASSOCIATION: ${{ github.event.pull_request.author_association }}
+          PR_AUTHOR_LOGIN: ${{ github.event.pull_request.user.login }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python3 << 'PYEOF'
-          import json, os, sys
+          import json, os, sys, urllib.request, urllib.error
+          from datetime import datetime, timezone
 
           association = os.environ.get('PR_AUTHOR_ASSOCIATION', '')
+          author_login = os.environ.get('PR_AUTHOR_LOGIN', '')
+          token = os.environ.get('GITHUB_TOKEN', '')
           is_org_member = association in ('OWNER', 'MEMBER')
+
+          def check_verified_eligibility(login):
+              """Check if user meets verified tier requirements:
+              Account age >= 1 year AND (50+ followers OR 10+ public repos)"""
+              if not login:
+                  return False
+              try:
+                  req = urllib.request.Request(f'https://api.github.com/users/{login}')
+                  if token:
+                      req.add_header('Authorization', f'token {token}')
+                  req.add_header('Accept', 'application/vnd.github+json')
+                  with urllib.request.urlopen(req) as resp:
+                      user = json.loads(resp.read())
+                  created = datetime.fromisoformat(user['created_at'].replace('Z', '+00:00'))
+                  age_days = (datetime.now(timezone.utc) - created).days
+                  public_repos = user.get('public_repos', 0)
+                  followers = user.get('followers', 0)
+                  print(f'Author {login}: account age {age_days}d, {public_repos} public repos, {followers} followers')
+                  return age_days >= 365 and (followers >= 50 or public_repos >= 10)
+              except (urllib.error.URLError, KeyError, ValueError) as e:
+                  print(f'Warning: could not verify user {login}: {e}')
+                  return False
 
           with open('changed_packs.json') as f:
               packs = json.load(f)
+
+          # Cache the eligibility check (only query API once)
+          verified_eligible = None
 
           errors = []
           for pack in packs:
               tier = pack.get('trust_tier', '')
               name = pack.get('name', '')
-              if not is_org_member and tier in ('official', 'verified'):
-                  errors.append(f'{name}: community contributors cannot use trust_tier "{tier}" (use "community")')
+              if tier == 'official' and not is_org_member:
+                  errors.append(f'{name}: only PeonPing org members can use trust_tier "official"')
+              elif tier == 'verified' and not is_org_member:
+                  if verified_eligible is None:
+                      verified_eligible = check_verified_eligibility(author_login)
+                  if not verified_eligible:
+                      errors.append(f'{name}: trust_tier "verified" requires account age >= 1 year and 50+ followers or 10+ public repos')
 
           with open('trust_errors.json', 'w') as f:
               json.dump(errors, f)
