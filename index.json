@@ -5,7 +5,7 @@
             "name": "abbot",
             "display_name": "The Abbot (Stronghold Crusader)",
             "version": "1.2.1",
-            "description": "The Abbot voice lines from Stronghold Crusader \u2014 scheming monastery lord",
+            "description": "The Abbot voice lines from Stronghold Crusader — scheming monastery lord",
             "author": {
                 "name": "Marko Jevic",
                 "github": "koyev"
@@ -40,6 +40,81 @@
             ],
             "added": "2026-03-01",
             "updated": "2026-03-03"
+        },
+        {
+            "name": "abes-oddysee-abe",
+            "display_name": "Abe's Oddysee - Abe",
+            "version": "1.0.0",
+            "description": "Sound pack featuring voice clips of Abe from Oddworld: Abe's Oddysee.",
+            "author": {
+                "name": "Ioseb Laghidze",
+                "github": "onebadninja"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "input.required",
+                "resource.limit",
+                "session.end"
+            ],
+            "language": "en",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 11,
+            "total_size_bytes": 455988,
+            "source_repo": "OneBadNinja/openpeon-abes-oddyssey-abe",
+            "source_ref": "v1.0.0",
+            "source_path": ".",
+            "manifest_sha256": "733c24ccc3bfc76998b374239e0d468b80c6e6d7c0e96bb5f400f960930ad4cd",
+            "tags": [
+                "gaming",
+                "oddworld"
+            ],
+            "preview_sounds": [
+                "Hello.mp3",
+                "Chanting.mp3"
+            ],
+            "added": "2026-04-14",
+            "updated": "2026-04-14"
+        },
+        {
+            "name": "abes-oddysee-slig",
+            "display_name": "Abe's Oddysee - Slig",
+            "version": "1.0.0",
+            "description": "Sound pack featuring voice clips of Slig from Oddworld: Abe's Oddysee.",
+            "author": {
+                "name": "Ioseb Laghidze",
+                "github": "onebadninja"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "input.required",
+                "resource.limit"
+            ],
+            "language": "en",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 9,
+            "total_size_bytes": 285062,
+            "source_repo": "OneBadNinja/openpeon-abes-oddyssey-slig",
+            "source_ref": "v1.0.0",
+            "source_path": ".",
+            "manifest_sha256": "89848738736cfa0a8225c3af614a138e563d042d76b57968e9523e67468c185d",
+            "tags": [
+                "gaming",
+                "oddworld"
+            ],
+            "preview_sounds": [
+                "Here_Boy.mp3",
+                "Help.mp3"
+            ],
+            "added": "2026-04-14",
+            "updated": "2026-04-14"
         },
         {
             "name": "acolyte_de",
@@ -83,7 +158,7 @@
         },
         {
             "name": "acolyte_es",
-            "display_name": "Ac\u00f3lito Muertos Vivientes Warcraft III (ES)",
+            "display_name": "Acólito Muertos Vivientes Warcraft III (ES)",
             "version": "1.0.2",
             "description": "Spanish Undead Acolyte sound pack from Warcraft III",
             "author": {
@@ -163,9 +238,9 @@
         },
         {
             "name": "ae_qianyu",
-            "display_name": "\u660e\u65e5\u65b9\u821f:\u7ec8\u672b\u5730 \u9648\u5343\u8bed",
+            "display_name": "明日方舟:终末地 陈千语",
             "version": "1.0.4",
-            "description": "\u660e\u65e5\u65b9\u821f:\u7ec8\u672b\u5730 \u9648\u5343\u8bed \u8bed\u97f3\u5305",
+            "description": "明日方舟:终末地 陈千语 语音包",
             "author": {
                 "name": "LiRiu",
                 "github": "LiRiu"
@@ -189,7 +264,7 @@
             "manifest_sha256": "50fd5866b2f025deba93723ceae9aa77ef88302efa7915711d881222c391d67b",
             "tags": [
                 "gaming",
-                "\u660e\u65e5\u65b9\u821f:\u7ec8\u672b\u5730",
+                "明日方舟:终末地",
                 "arknights:endfield"
             ],
             "preview_sounds": [
@@ -282,6 +357,85 @@
             ],
             "added": "2026-02-26",
             "updated": "2026-02-26"
+        },
+        {
+            "name": "alan-rickman",
+            "display_name": "Alan Rickman",
+            "version": "1.1.2",
+            "description": "Claudette notification sounds, voiced in the manner of the late Alan Rickman. Slow. Deliberate. Faintly amused.",
+            "author": {
+                "name": "Doomspork",
+                "github": "doomspork"
+            },
+            "trust_tier": "verified",
+            "categories": [
+                "input.required",
+                "resource.limit",
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error"
+            ],
+            "language": "en",
+            "license": "CC-BY-4.0",
+            "sound_count": 60,
+            "total_size_bytes": 1964096,
+            "source_repo": "utensils/openpeon-alan-rickman-soundpack",
+            "source_ref": "v1.1.2",
+            "source_path": ".",
+            "manifest_sha256": "30539aaacf513408cc7b504a62073b61ac9a1cef868db01ac92b8b8f8ef57419",
+            "tags": [
+                "tts",
+                "ai-voice",
+                "alan-rickman",
+                "claudette",
+                "spoken-word"
+            ],
+            "preview_sounds": [
+                "session_start_01.mp3",
+                "task_complete_01.mp3"
+            ],
+            "added": "2026-04-29",
+            "updated": "2026-05-01"
+        },
+        {
+            "name": "aliens",
+            "display_name": "Aliens (1986)",
+            "version": "1.0.2",
+            "description": "Voice lines from Aliens (1986)",
+            "author": {
+                "name": "Matt Powell",
+                "github": "fauxparse"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "input.required",
+                "resource.limit",
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "user.spam"
+            ],
+            "language": "en",
+            "license": "MIT",
+            "sound_count": 38,
+            "total_size_bytes": 821880,
+            "source_repo": "fauxparse/openpeon-aliens",
+            "source_ref": "v1.0.2",
+            "source_path": ".",
+            "manifest_sha256": "95d9fe06bac80a417e416283da2e416f3a39c7b81446f51e72677a6690a8e752",
+            "tags": [
+                "movie-quotes",
+                "movies",
+                "aliens"
+            ],
+            "preview_sounds": [
+                "five.mp3",
+                "game-over.mp3"
+            ],
+            "added": "2026-05-08",
+            "updated": "2026-05-08"
         },
         {
             "name": "ana",
@@ -533,6 +687,129 @@
             "updated": "2026-02-12"
         },
         {
+            "name": "aoe2-villager-turkish-female",
+            "display_name": "Age of Empires 2 Turkish (Female)",
+            "version": "1.0.1",
+            "description": "Female Turkish villager voice lines from Age of Empires II",
+            "author": {
+                "name": "Yusuf Kinatas",
+                "github": "yusufkinatas"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "input.required",
+                "resource.limit",
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "user.spam"
+            ],
+            "language": "tr",
+            "license": "MIT",
+            "sound_count": 18,
+            "total_size_bytes": 228642,
+            "source_repo": "yusufkinatas/peon-ping-custom-packs",
+            "source_ref": "v1.0.1",
+            "source_path": "aoe2-villager-turkish-female",
+            "manifest_sha256": "327916a5e60a45bc470f826efd23be06e1fff31c3e91893c1c8be35fd43874c9",
+            "tags": [
+                "gaming",
+                "aoe",
+                "aoe2",
+                "rts",
+                "turkish"
+            ],
+            "preview_sounds": [
+                "Evet_F.ogg",
+                "Oduncu_F.ogg"
+            ],
+            "added": "2026-04-15",
+            "updated": "2026-04-15"
+        },
+        {
+            "name": "aoe2-villager-turkish-male",
+            "display_name": "Age of Empires 2 Turkish (Male)",
+            "version": "1.0.1",
+            "description": "Male Turkish villager voice lines from Age of Empires II",
+            "author": {
+                "name": "Yusuf Kinatas",
+                "github": "yusufkinatas"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "input.required",
+                "resource.limit",
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "user.spam"
+            ],
+            "language": "tr",
+            "license": "MIT",
+            "sound_count": 18,
+            "total_size_bytes": 259557,
+            "source_repo": "yusufkinatas/peon-ping-custom-packs",
+            "source_ref": "v1.0.1",
+            "source_path": "aoe2-villager-turkish-male",
+            "manifest_sha256": "a68b832338ed8c76ab04fbe27418bbe1939b91a6ab9336ee8e822b68a33fb909",
+            "tags": [
+                "gaming",
+                "aoe",
+                "aoe2",
+                "rts",
+                "turkish"
+            ],
+            "preview_sounds": [
+                "Evet_M.ogg",
+                "Oduncu_M.ogg"
+            ],
+            "added": "2026-04-15",
+            "updated": "2026-04-15"
+        },
+        {
+            "name": "aoe3-villager-turkish",
+            "display_name": "Age of Empires 3 Turkish",
+            "version": "1.0.1",
+            "description": "Ottoman Turkish villager voice lines from Age of Empires III",
+            "author": {
+                "name": "Yusuf Kinatas",
+                "github": "yusufkinatas"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "input.required",
+                "resource.limit",
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error"
+            ],
+            "language": "tr",
+            "license": "MIT",
+            "sound_count": 15,
+            "total_size_bytes": 438548,
+            "source_repo": "yusufkinatas/peon-ping-custom-packs",
+            "source_ref": "v1.0.1",
+            "source_path": "aoe3-villager-turkish",
+            "manifest_sha256": "92a6f3d850ad6e9ba0b4ce26bb187f690b1f874fc4d8ba7e6c4c177090f4d1de",
+            "tags": [
+                "gaming",
+                "aoe",
+                "aoe3",
+                "rts",
+                "turkish",
+                "ottoman"
+            ],
+            "preview_sounds": [
+                "Selam.ogg",
+                "Oduncu.ogg"
+            ],
+            "added": "2026-04-15",
+            "updated": "2026-04-15"
+        },
+        {
             "name": "aoe4_fr_imperial",
             "display_name": "Age of Empires IV - French Villager Voices",
             "version": "1.0.2",
@@ -697,7 +974,7 @@
             "name": "arc-raiders-emotes",
             "display_name": "Arc Raiders Emotes",
             "version": "1.0.0",
-            "description": "Arc Raiders emote voice lines \u2014 hey there, let's boogie, don't shoot, and more",
+            "description": "Arc Raiders emote voice lines — hey there, let's boogie, don't shoot, and more",
             "author": {
                 "name": "Buupu",
                 "github": "Buupu"
@@ -847,9 +1124,9 @@
         },
         {
             "name": "arthas_ru",
-            "display_name": "\u0410\u0440\u0442\u0430\u0441 \u0420\u044b\u0446\u0430\u0440\u044c \u0421\u043c\u0435\u0440\u0442\u0438 (Russian)",
+            "display_name": "Артас Рыцарь Смерти (Russian)",
             "version": "1.0.0",
-            "description": "WC3 Death Knight Arthas \u2014 all 20 Russian voice lines mapped to CESP categories",
+            "description": "WC3 Death Knight Arthas — all 20 Russian voice lines mapped to CESP categories",
             "author": {
                 "name": "samokay",
                 "github": "samokay"
@@ -927,6 +1204,46 @@
             ],
             "added": "2026-03-24",
             "updated": "2026-03-24"
+        },
+        {
+            "name": "balatro",
+            "display_name": "Balatro",
+            "version": "1.0.1",
+            "description": "Sound effects from Balatro by Localthunk — card flips, win jingles, and Jimbo across all 7 CESP categories",
+            "author": {
+                "name": "cole.boren",
+                "github": "williycole"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "input.required",
+                "resource.limit",
+                "user.spam"
+            ],
+            "language": "en",
+            "license": "fair-use",
+            "sound_count": 12,
+            "total_size_bytes": 402558,
+            "source_repo": "williycole/openpeon-balatro",
+            "source_ref": "v1.0.1",
+            "source_path": ".",
+            "manifest_sha256": "459be1657848ec3cdc5932bcea7cd9e3a1f72b25b7483194f0b08781b4228183",
+            "tags": [
+                "gaming",
+                "balatro",
+                "cards",
+                "roguelike"
+            ],
+            "preview_sounds": [
+                "acknowledge_1_jimbo.mp3",
+                "complete_1_win.ogg"
+            ],
+            "added": "2026-04-28",
+            "updated": "2026-04-28"
         },
         {
             "name": "baptiste",
@@ -1013,140 +1330,10 @@
             "updated": "2026-03-24"
         },
         {
-            "name": "blues_brothers",
-            "display_name": "Blues Brothers",
-            "version": "1.0.0",
-            "description": "The full Blues Brothers experience.",
-            "author": {
-                "name": "Willow Billock",
-                "github": "MattBillock"
-            },
-            "trust_tier": "community",
-            "categories": [
-                "input.required",
-                "resource.limit",
-                "session.start",
-                "task.acknowledge",
-                "task.complete",
-                "task.error",
-                "user.spam"
-            ],
-            "language": "en",
-            "license": "fair-use",
-            "sound_count": 9,
-            "total_size_bytes": 568709,
-            "source_repo": "MattBillock/openpeon-movie-packs",
-            "source_ref": "v1.0.0",
-            "source_path": "blues_brothers",
-            "manifest_sha256": "933cbfc67a9267825ba7e94e3db922bbeaac5b9887b1bc35a4ab8dfce4de2772",
-            "tags": [
-                "movie-quotes",
-                "the-blues-brothers",
-                "comedy",
-                "john-belushi",
-                "dan-aykroyd",
-                "blues",
-                "music"
-            ],
-            "preview_sounds": [
-                "106_test.mp3",
-                "band_is_back_together.mp3"
-            ],
-            "added": "2026-02-25",
-            "updated": "2026-02-25",
-            "quality": "flagged"
-        },
-        {
-            "name": "blues_brothers_elwood",
-            "display_name": "Elwood Blues",
-            "version": "1.0.0",
-            "description": "Deadpan delivery, all business.",
-            "author": {
-                "name": "Willow Billock",
-                "github": "MattBillock"
-            },
-            "trust_tier": "community",
-            "categories": [
-                "input.required",
-                "resource.limit",
-                "session.start",
-                "task.acknowledge",
-                "task.complete",
-                "task.error",
-                "user.spam"
-            ],
-            "language": "en",
-            "license": "fair-use",
-            "sound_count": 11,
-            "total_size_bytes": 421572,
-            "source_repo": "MattBillock/openpeon-movie-packs",
-            "source_ref": "v1.0.0",
-            "source_path": "blues_brothers_elwood",
-            "manifest_sha256": "102e9e841d843103ad998051b025bb74d3819e75db46588f2c98b0ae640a7c77",
-            "tags": [
-                "movie-quotes",
-                "the-blues-brothers",
-                "comedy",
-                "dan-aykroyd",
-                "elwood-blues",
-                "blues"
-            ],
-            "preview_sounds": [
-                "106_miles_to_chicago.mp3",
-                "cop_motor.mp3"
-            ],
-            "added": "2026-02-25",
-            "updated": "2026-02-25",
-            "quality": "flagged"
-        },
-        {
-            "name": "blues_brothers_jake",
-            "display_name": "Jake Blues",
-            "version": "1.0.0",
-            "description": "Scheming, devout (sort of), on a mission from God.",
-            "author": {
-                "name": "Willow Billock",
-                "github": "MattBillock"
-            },
-            "trust_tier": "community",
-            "categories": [
-                "input.required",
-                "resource.limit",
-                "session.start",
-                "task.acknowledge",
-                "task.complete",
-                "task.error",
-                "user.spam"
-            ],
-            "language": "en",
-            "license": "fair-use",
-            "sound_count": 17,
-            "total_size_bytes": 731153,
-            "source_repo": "MattBillock/openpeon-movie-packs",
-            "source_ref": "v1.0.0",
-            "source_path": "blues_brothers_jake",
-            "manifest_sha256": "df8fd54a41f647b338f60d6d274072b45f2f46b56ca7cc4e38ef49a8578164f1",
-            "tags": [
-                "movie-quotes",
-                "the-blues-brothers",
-                "comedy",
-                "john-belushi",
-                "jake-blues",
-                "blues"
-            ],
-            "preview_sounds": [
-                "are_you_the_police.mp3",
-                "band_is_back_together.mp3"
-            ],
-            "added": "2026-02-25",
-            "updated": "2026-02-25",
-            "quality": "flagged"
-        },
-        {
             "name": "boris_ru",
-            "display_name": "\u0414\u0435\u0434 \u0411\u043e\u0440\u0438\u0441 (Russian)",
+            "display_name": "Дед Борис (Russian)",
             "version": "1.0.0",
-            "description": "\u0414\u0435\u0434 \u0411\u043e\u0440\u0438\u0441 \u2014 AI-generated tired Russian village grandpa commenting on your code. Gruff but warm.",
+            "description": "Дед Борис — AI-generated tired Russian village grandpa commenting on your code. Gruff but warm.",
             "author": {
                 "name": "malakhov-dmitrii",
                 "github": "malakhov-dmitrii"
@@ -1309,7 +1496,7 @@
             "name": "caliph",
             "display_name": "The Caliph (Stronghold Crusader)",
             "version": "1.2.1",
-            "description": "The Caliph voice lines from Stronghold Crusader \u2014 diplomatic desert lord",
+            "description": "The Caliph voice lines from Stronghold Crusader — diplomatic desert lord",
             "author": {
                 "name": "Marko Jevic",
                 "github": "koyev"
@@ -1551,7 +1738,7 @@
             "name": "charlie_sheen",
             "display_name": "Charlie Sheen",
             "version": "1.0.0",
-            "description": "Charlie Sheen's iconic interview quotes \u2014 Winning, tiger blood, and more.",
+            "description": "Charlie Sheen's iconic interview quotes — Winning, tiger blood, and more.",
             "author": {
                 "name": "rootbarb",
                 "github": "rootbarb"
@@ -1587,9 +1774,9 @@
         },
         {
             "name": "claptrap-fr",
-            "display_name": "ClapTrap (FR) \u2014 Borderlands 2",
+            "display_name": "ClapTrap (FR) — Borderlands 2",
             "version": "1.0.0",
-            "description": "R\u00e9pliques de ClapTrap en fran\u00e7ais depuis Borderlands 2",
+            "description": "Répliques de ClapTrap en français depuis Borderlands 2",
             "author": {
                 "name": "Jean-Baptiste Choquet",
                 "github": "Jechoque42"
@@ -1754,7 +1941,7 @@
             "name": "cute-minimal",
             "display_name": "Cute UI",
             "version": "1.0.1",
-            "description": "Simple, cute UI/UX interface sounds \u2014 light and playful coding event feedback",
+            "description": "Simple, cute UI/UX interface sounds — light and playful coding event feedback",
             "author": {
                 "name": "Mark Chitty",
                 "github": "TechPdM"
@@ -2024,52 +2211,10 @@
             "updated": "2026-03-11"
         },
         {
-            "name": "diehard",
-            "display_name": "Die Hard",
-            "version": "1.0.1",
-            "description": "Die Hard quotes for your Claude Code notifications. 16 clips across 7 categories.",
-            "author": {
-                "name": "Willow Billock",
-                "github": "MattBillock"
-            },
-            "trust_tier": "community",
-            "categories": [
-                "session.start",
-                "task.acknowledge",
-                "task.complete",
-                "task.error",
-                "input.required",
-                "resource.limit"
-            ],
-            "language": "en",
-            "license": "fair-use",
-            "sound_count": 16,
-            "total_size_bytes": 832002,
-            "source_repo": "MattBillock/openpeon-movie-packs",
-            "source_ref": "v1.1.1",
-            "source_path": "diehard",
-            "manifest_sha256": "c397104fbb3c340922d34466414f8f1a6a42c40fbc7733a5abab7f1d1a7c075d",
-            "tags": [
-                "movie-quotes",
-                "action",
-                "christmas",
-                "bruce-willis",
-                "hans-gruber",
-                "alan-rickman"
-            ],
-            "preview_sounds": [
-                "powell_welcome_to_the_party.mp3",
-                "welcome_to_the_party.mp3"
-            ],
-            "added": "2026-02-26",
-            "updated": "2026-02-26",
-            "quality": "flagged"
-        },
-        {
             "name": "djkhaled",
             "display_name": "DJ Khaled",
             "version": "1.0.0",
-            "description": "DJ Khaled catchphrases as coding notification sounds \u2014 Another one! We the best! Major key alert!",
+            "description": "DJ Khaled catchphrases as coding notification sounds — Another one! We the best! Major key alert!",
             "author": {
                 "name": "mevinmathew23",
                 "github": "mevinmathew23"
@@ -2314,7 +2459,7 @@
             "name": "dota2_ember_spirit",
             "display_name": "Ember Spirit (Dota 2)",
             "version": "1.0.0",
-            "description": "Ember Spirit (Dota 2) sound pack \u2014 'Balance in all things.'",
+            "description": "Ember Spirit (Dota 2) sound pack — 'Balance in all things.'",
             "author": {
                 "name": "kmelkon",
                 "github": "kmelkon"
@@ -2354,7 +2499,7 @@
             "name": "dota2_invoker",
             "display_name": "Invoker (Dota 2)",
             "version": "1.0.0",
-            "description": "Invoker (Dota 2) sound pack \u2014 'So begins a new age of knowledge.'",
+            "description": "Invoker (Dota 2) sound pack — 'So begins a new age of knowledge.'",
             "author": {
                 "name": "bwarren2",
                 "github": "bwarren2"
@@ -2394,7 +2539,7 @@
             "name": "dota2_phantom_lancer",
             "display_name": "Phantom Lancer (Dota 2)",
             "version": "1.0.0",
-            "description": "Phantom Lancer (Dota 2) sound pack \u2014 'From one: an army.'",
+            "description": "Phantom Lancer (Dota 2) sound pack — 'From one: an army.'",
             "author": {
                 "name": "kmelkon",
                 "github": "kmelkon"
@@ -2434,7 +2579,7 @@
             "name": "dota2_witch_doctor",
             "display_name": "Witch Doctor (Dota 2)",
             "version": "1.0.0",
-            "description": "Witch Doctor (Dota 2) sound pack \u2014 'De Doctor is in!'",
+            "description": "Witch Doctor (Dota 2) sound pack — 'De Doctor is in!'",
             "author": {
                 "name": "kmelkon",
                 "github": "kmelkon"
@@ -2474,7 +2619,7 @@
             "name": "dota2_zeus",
             "display_name": "Zeus (Dota 2)",
             "version": "1.0.0",
-            "description": "Zeus (Dota 2) sound pack \u2014 'Your god has arrived.'",
+            "description": "Zeus (Dota 2) sound pack — 'Your god has arrived.'",
             "author": {
                 "name": "kmelkon",
                 "github": "kmelkon"
@@ -2514,7 +2659,7 @@
             "name": "dreamy-minimal",
             "display_name": "Dreamy Beeps",
             "version": "1.0.1",
-            "description": "Soft, dreamy tonal beeps \u2014 gentle and unobtrusive coding event sounds",
+            "description": "Soft, dreamy tonal beeps — gentle and unobtrusive coding event sounds",
             "author": {
                 "name": "Mark Chitty",
                 "github": "TechPdM"
@@ -2550,7 +2695,7 @@
         },
         {
             "name": "ds1-carvings",
-            "display_name": "Dark Souls \u2013 Carvings",
+            "display_name": "Dark Souls – Carvings",
             "version": "1.0.0",
             "description": "Gough's infamous carvings from Dark Souls as sound effects for various events.",
             "author": {
@@ -2589,7 +2734,7 @@
         },
         {
             "name": "ds1-siegmeyer",
-            "display_name": "Dark Souls \u2013 Siegmeyer of Catarina",
+            "display_name": "Dark Souls – Siegmeyer of Catarina",
             "version": "1.0.1",
             "description": "A sound pack with a big heart and bigger armor.",
             "author": {
@@ -2632,7 +2777,7 @@
         },
         {
             "name": "ds1-solaire",
-            "display_name": "Dark Souls \u2013 Solaire of Astora",
+            "display_name": "Dark Souls – Solaire of Astora",
             "version": "1.0.2",
             "description": "A sound pack for true warriors of sunlight.",
             "author": {
@@ -3442,10 +3587,49 @@
             "updated": "2026-03-24"
         },
         {
+            "name": "elise",
+            "display_name": "Elise",
+            "version": "1.0.2",
+            "description": "Agent event and completion sounds for Claudette, voiced by ElevenLabs' Elise.",
+            "author": {
+                "name": "Doomspork",
+                "github": "doomspork"
+            },
+            "trust_tier": "verified",
+            "categories": [
+                "input.required",
+                "resource.limit",
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error"
+            ],
+            "language": "en",
+            "license": "MIT",
+            "sound_count": 24,
+            "total_size_bytes": 621715,
+            "source_repo": "utensils/openpeon-elise-soundpack",
+            "source_ref": "v1.0.2",
+            "source_path": ".",
+            "manifest_sha256": "bff4fa7e278e935fa8b33de4888e9aac709d64fd0436c5eb8294462083791965",
+            "tags": [
+                "tts",
+                "elevenlabs",
+                "ai-voice",
+                "claudette"
+            ],
+            "preview_sounds": [
+                "session_start_01.mp3",
+                "task_complete_01.mp3"
+            ],
+            "added": "2026-04-29",
+            "updated": "2026-05-01"
+        },
+        {
             "name": "emir",
             "display_name": "The Emir (Stronghold Crusader)",
             "version": "1.2.1",
-            "description": "The Emir voice lines from Stronghold Crusader \u2014 fierce Arabian lord",
+            "description": "The Emir voice lines from Stronghold Crusader — fierce Arabian lord",
             "author": {
                 "name": "Marko Jevic",
                 "github": "koyev"
@@ -3567,7 +3751,7 @@
             "name": "frederick",
             "display_name": "Emperor Frederick (Stronghold Crusader)",
             "version": "1.2.1",
-            "description": "Emperor Frederick voice lines from Stronghold Crusader \u2014 noble crusader emperor",
+            "description": "Emperor Frederick voice lines from Stronghold Crusader — noble crusader emperor",
             "author": {
                 "name": "Marko Jevic",
                 "github": "koyev"
@@ -3685,6 +3869,44 @@
             ],
             "added": "2026-02-16",
             "updated": "2026-02-16"
+        },
+        {
+            "name": "gabriel-ultrakill",
+            "display_name": "Gabriel (ULTRAKILL)",
+            "version": "1.0.0",
+            "description": "Gabriel voice lines from ULTRAKILL for OpenPeon/CESP.",
+            "author": {
+                "name": "Thomas G. Lopes",
+                "github": "TGlide"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "input.required",
+                "resource.limit"
+            ],
+            "language": "en",
+            "license": "fair-use",
+            "sound_count": 25,
+            "total_size_bytes": 2523525,
+            "source_repo": "TGlide/openpeon-gabriel-ultrakill",
+            "source_ref": "v1.0.0",
+            "source_path": ".",
+            "manifest_sha256": "519ba18384bae4089b7ca13e93d1171971a5daee84e42050694545c469719a40",
+            "tags": [
+                "gaming",
+                "ultrakill",
+                "gabriel"
+            ],
+            "preview_sounds": [
+                "sounds/start/machine.mp3",
+                "sounds/complete/behold.mp3"
+            ],
+            "added": "2026-04-27",
+            "updated": "2026-04-27"
         },
         {
             "name": "genji",
@@ -3809,7 +4031,7 @@
         {
             "name": "gothic_2_nameless_hero",
             "display_name": "Gothic (Bezimienny)",
-            "version": "1.0.0",
+            "version": "1.1.0",
             "description": "Nameless hero sound pack from Gothic 2",
             "author": {
                 "name": "Robert Harezlak",
@@ -3829,9 +4051,9 @@
             "sound_count": 18,
             "total_size_bytes": 753664,
             "source_repo": "Rxbsxn/openpeon-gothic",
-            "source_ref": "v1.0.0",
+            "source_ref": "v1.1.0",
             "source_path": ".",
-            "manifest_sha256": "ed3f3764522bdc68846cfcba8bdfc8f95281bf8a4ca862ac35df518462400c76",
+            "manifest_sha256": "2b0774a3efed0f3559959b9c1511d6edd32fc2af6d31bc2074082257b0bebf00",
             "tags": [
                 "gaming",
                 "gothic",
@@ -3843,7 +4065,45 @@
                 "jestem_tu_nowy.mp3"
             ],
             "added": "2026-03-23",
-            "updated": "2026-03-23"
+            "updated": "2026-04-27"
+        },
+        {
+            "name": "gta-san-andreas",
+            "display_name": "GTA San Andreas",
+            "version": "1.1.0",
+            "description": "Iconic GTA San Andreas voice lines and sounds for your coding sessions. Grove Street, home.",
+            "author": {
+                "name": "Lord Byron",
+                "github": "cybersnus"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "session.start",
+                "task.complete",
+                "task.acknowledge",
+                "task.error",
+                "resource.limit",
+                "input.required"
+            ],
+            "language": "en",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 9,
+            "total_size_bytes": 5789022,
+            "source_repo": "cybersnus/gta-sa-peonping",
+            "source_ref": "v1.1.0",
+            "source_path": ".",
+            "manifest_sha256": "2670a07e00f06ac4e34fef8c97d9ebcdeaf29084383ed1edce9c9228172eb705",
+            "tags": [
+                "gaming",
+                "gta",
+                "memes"
+            ],
+            "preview_sounds": [
+                "ah-shit-here-we-go-again.wav",
+                "mission-passed.wav"
+            ],
+            "added": "2026-04-30",
+            "updated": "2026-05-04"
         },
         {
             "name": "guppi",
@@ -4088,7 +4348,7 @@
         },
         {
             "name": "high_elf_builder_ru",
-            "display_name": "\u0421\u0442\u0440\u043e\u0438\u0442\u0435\u043b\u044c \u0412\u044b\u0441\u0448\u0438\u0445 \u042d\u043b\u044c\u0444\u043e\u0432 (Russian)",
+            "display_name": "Строитель Высших Эльфов (Russian)",
             "version": "1.1.0",
             "description": "High Elf Builder voice lines from Warcraft III (Russian)",
             "author": {
@@ -4129,7 +4389,7 @@
         },
         {
             "name": "honor_of_kings",
-            "display_name": "Honor of Kings (\u738b\u8005\u8363\u8000)",
+            "display_name": "Honor of Kings (王者荣耀)",
             "version": "1.0.2",
             "description": "Honor of Kings game announcement voice lines and XiShi character VO",
             "author": {
@@ -4217,7 +4477,7 @@
             "name": "impossible-mission",
             "display_name": "Impossible Mission (C64, 1984)",
             "version": "1.0.0",
-            "description": "Digitized speech from Impossible Mission (Epyx, 1984) for the Commodore 64 \u2014 one of the earliest examples of voice synthesis in a home computer game.",
+            "description": "Digitized speech from Impossible Mission (Epyx, 1984) for the Commodore 64 — one of the earliest examples of voice synthesis in a home computer game.",
             "author": {
                 "name": "trjh",
                 "github": "trjh"
@@ -4252,6 +4512,58 @@
                 "session_start.mp3",
                 "task_acknowledge.mp3"
             ]
+        },
+        {
+            "name": "itysl",
+            "display_name": "I Think You Should Leave",
+            "version": "1.0.0",
+            "description": "Tim Robinson voice lines from I Think You Should Leave with Tim Robinson",
+            "author": {
+                "name": "michelkazi",
+                "github": "michelkazi"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "input.required",
+                "resource.limit",
+                "user.spam"
+            ],
+            "language": "en",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 24,
+            "total_size_bytes": 2070304,
+            "source_repo": "michelkazi/openpeon-itysl",
+            "source_ref": "v1.0.0",
+            "source_path": "",
+            "manifest_sha256": "63c40d14c94279f67604554bfb132c054ef5f79e9e20813ae2fd4cced5d7cb11",
+            "tags": [
+                "comedy",
+                "tim-robinson",
+                "itysl",
+                "i-think-you-should-leave",
+                "netflix",
+                "sketch-comedy"
+            ],
+            "preview_sounds": [
+                {
+                    "file": "sounds/whoever_did_this_just_confess.mp3",
+                    "label": "Whoever did this just confess"
+                },
+                {
+                    "file": "sounds/big_fat_load_of_cum_then.mp3",
+                    "label": "Big fat load of cum then"
+                },
+                {
+                    "file": "sounds/i_dont_know_what_any_of_this_shit_is.mp3",
+                    "label": "I don't know what any of this shit is and I'm fucking scared"
+                }
+            ],
+            "added": "2026-04-27",
+            "updated": "2026-04-27"
         },
         {
             "name": "jan_pawel_2",
@@ -4290,6 +4602,45 @@
             ],
             "added": "2026-03-25",
             "updated": "2026-03-27"
+        },
+        {
+            "name": "japan-rail",
+            "display_name": "Japan Rail",
+            "version": "1.0.0",
+            "description": "Japanese Train station jingles and announcements sound pack.",
+            "author": {
+                "name": "Adam Bullmer",
+                "github": "adambullmer"
+            },
+            "trust_tier": "verified",
+            "categories": [
+                "input.required",
+                "resource.limit",
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "task.progress",
+                "user.spam"
+            ],
+            "language": "en",
+            "license": "fair-use",
+            "sound_count": 31,
+            "total_size_bytes": 2015805,
+            "source_repo": "adambullmer/open-peon-japan-rail",
+            "source_ref": "v1.0.0",
+            "source_path": ".",
+            "manifest_sha256": "1840b34a04fc1418be8101f980bc7f6353b7050fa63616d3d0f8bdf49bf73d92",
+            "tags": [
+                "trains",
+                "japan"
+            ],
+            "preview_sounds": [
+                "sounds/session_start_door_closing.mp3",
+                "sounds/task_acknowledge_akabaneiwabuchi.mp3"
+            ],
+            "added": "2026-04-08",
+            "updated": "2026-04-08"
         },
         {
             "name": "jarvis",
@@ -4541,6 +4892,82 @@
             "updated": "2026-02-27"
         },
         {
+            "name": "kart_zhangmiao_19512e8a",
+            "display_name": "kart-zhangmiao-19512e8a",
+            "version": "1.0.0",
+            "description": "sound pack of kart-zhangmiao-19512e8a",
+            "author": {
+                "name": "LiRiu",
+                "github": "LiRiu"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "input.required",
+                "resource.limit"
+            ],
+            "language": "zh-CN",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 9,
+            "total_size_bytes": 705921,
+            "source_repo": "LiRiu/kart-zhangmiao-19512e8a-pack",
+            "source_ref": "v1.0.0",
+            "source_path": ".",
+            "manifest_sha256": "3c94588060db7f0a6a3b9e919ee50c6257338f70033ac03f56ced96612025ebf",
+            "tags": [],
+            "preview_sounds": [
+                "1.mp3",
+                "6.mp3",
+                "7.mp3",
+                "2.mp3",
+                "4.mp3",
+                "3.mp3"
+            ],
+            "added": "2026-05-10",
+            "updated": "2026-05-10"
+        },
+        {
+            "name": "kart_zhangmiao_2d4ebd0a",
+            "display_name": "代号鸢 张渺 留音匣",
+            "version": "1.0.0",
+            "description": "sound pack of 代号鸢 张渺 留音匣",
+            "author": {
+                "name": "LiRiu",
+                "github": "LiRiu"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "input.required",
+                "resource.limit"
+            ],
+            "language": "zh-CN",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 10,
+            "total_size_bytes": 964890,
+            "source_repo": "LiRiu/kart-zhangmiao-2d4ebd0a-pack",
+            "source_ref": "v1.0.0",
+            "source_path": ".",
+            "manifest_sha256": "4e4c0a654f95abeedf3cb51f40716ec9cda77cac9a84ca0b02681ab5d859ae9c",
+            "tags": [
+                "code:kart"
+            ],
+            "preview_sounds": [
+                "sounds/4.mp3",
+                "sounds/1.mp3",
+                "sounds/2.mp3",
+                "sounds/3.mp3"
+            ],
+            "added": "2026-04-14",
+            "updated": "2026-04-14"
+        },
+        {
             "name": "katamari-damacy",
             "display_name": "Katamari Damacy",
             "version": "0.4.1",
@@ -4580,6 +5007,47 @@
             ],
             "added": "2026-03-20",
             "updated": "2026-03-20"
+        },
+        {
+            "name": "kiku",
+            "display_name": "Kiku - 傲娇大小姐",
+            "version": "1.0.0",
+            "description": "傲娇大小姐风格的语音包，甜美中带点小傲娇。适合喜欢可爱又有点毒舌陪伴的开发者。",
+            "author": {
+                "name": "Kiku",
+                "github": "josonchou"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "input.required",
+                "resource.limit",
+                "session.end",
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "user.spam"
+            ],
+            "language": "zh-CN",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 37,
+            "total_size_bytes": 6840227,
+            "source_repo": "josonchou/openpeon-kiku-pack",
+            "source_ref": "v1.0.0",
+            "source_path": ".",
+            "manifest_sha256": "9767a350ce832fbb505024d5f3c99744b1d97ab38e884abf361d80d32ff1fcb6",
+            "tags": [
+                "anime",
+                "tsundere",
+                "chinese",
+                "cute",
+                "girl"
+            ],
+            "preview_sounds": [
+                "sounds/preview.wav"
+            ],
+            "added": "2026-05-11",
+            "updated": "2026-05-11"
         },
         {
             "name": "kiriko",
@@ -4704,49 +5172,6 @@
             ],
             "added": "2026-02-19",
             "updated": "2026-02-19"
-        },
-        {
-            "name": "lebowski_big_lebowski",
-            "display_name": "The Big Lebowski",
-            "version": "1.0.0",
-            "description": "Wealthy bluster and achievement-worship.",
-            "author": {
-                "name": "Willow Billock",
-                "github": "MattBillock"
-            },
-            "trust_tier": "community",
-            "categories": [
-                "input.required",
-                "resource.limit",
-                "session.start",
-                "task.acknowledge",
-                "task.complete",
-                "task.error",
-                "user.spam"
-            ],
-            "language": "en",
-            "license": "fair-use",
-            "sound_count": 13,
-            "total_size_bytes": 546568,
-            "source_repo": "MattBillock/openpeon-movie-packs",
-            "source_ref": "v1.0.0",
-            "source_path": "lebowski_big_lebowski",
-            "manifest_sha256": "146622212b947c987d730c43495dac8ec1a058e6b518be4f88231252938c2110",
-            "tags": [
-                "movie-quotes",
-                "the-big-lebowski",
-                "comedy",
-                "coen-brothers",
-                "david-huddleston",
-                "big-lebowski"
-            ],
-            "preview_sounds": [
-                "achievers.mp3",
-                "are_you_employed_sir.mp3"
-            ],
-            "added": "2026-02-25",
-            "updated": "2026-02-25",
-            "quality": "flagged"
         },
         {
             "name": "lebowski_jesus",
@@ -4877,50 +5302,6 @@
             "updated": "2026-02-25"
         },
         {
-            "name": "lebowski_walter",
-            "display_name": "Walter Sobchak",
-            "version": "1.0.0",
-            "description": "Unhinged Vietnam veteran energy for your coding errors.",
-            "author": {
-                "name": "Willow Billock",
-                "github": "MattBillock"
-            },
-            "trust_tier": "community",
-            "categories": [
-                "input.required",
-                "resource.limit",
-                "session.start",
-                "task.acknowledge",
-                "task.complete",
-                "task.error",
-                "user.spam"
-            ],
-            "language": "en",
-            "license": "fair-use",
-            "sound_count": 19,
-            "total_size_bytes": 713341,
-            "source_repo": "MattBillock/openpeon-movie-packs",
-            "source_ref": "v1.0.0",
-            "source_path": "lebowski_walter",
-            "manifest_sha256": "81550d777d2ef679d79aff5728e0234e756efc549ce108e62f3f5a82d7379c50",
-            "tags": [
-                "movie-quotes",
-                "the-big-lebowski",
-                "comedy",
-                "coen-brothers",
-                "john-goodman",
-                "walter-sobchak",
-                "bowling"
-            ],
-            "preview_sounds": [
-                "calmer_than_you_are.mp3",
-                "dont_roll_on_shabbos.mp3"
-            ],
-            "added": "2026-02-25",
-            "updated": "2026-02-25",
-            "quality": "flagged"
-        },
-        {
             "name": "lifeweaver",
             "display_name": "Overwatch - Lifeweaver",
             "version": "1.0.0",
@@ -4966,7 +5347,7 @@
             "name": "lol_fiddlesticks",
             "display_name": "Fiddlesticks",
             "version": "1.0.0",
-            "description": "Fiddlesticks (Rework) voice lines from League of Legends \u2014 the ancient fear demon",
+            "description": "Fiddlesticks (Rework) voice lines from League of Legends — the ancient fear demon",
             "author": {
                 "name": "huynhtan",
                 "github": "danhuynhdev"
@@ -5046,7 +5427,7 @@
             "name": "lol_fiddlesticks_surprise_party",
             "display_name": "Fiddlesticks - Surprise Party",
             "version": "1.0.0",
-            "description": "Surprise Party Fiddlesticks skin voice lines from League of Legends \u2014 the demon clown",
+            "description": "Surprise Party Fiddlesticks skin voice lines from League of Legends — the demon clown",
             "author": {
                 "name": "huynhtan",
                 "github": "danhuynhdev"
@@ -5128,7 +5509,7 @@
             "name": "mambo_pack",
             "display_name": "Mambo Pack",
             "version": "1.0.0",
-            "description": "Fun yet restrained Mambo voice pack \u2014 Chinese meme-flavored coding companion",
+            "description": "Fun yet restrained Mambo voice pack — Chinese meme-flavored coding companion",
             "author": {
                 "name": "nicoaz",
                 "github": "nicoaz"
@@ -5168,9 +5549,9 @@
             "name": "marcel",
             "display_name": "Marcel",
             "version": "1.0.0",
-            "description": "Legendary quotes of Marcel Mer\u010diak.",
+            "description": "Legendary quotes of Marcel Merčiak.",
             "author": {
-                "name": "Mari\u00e1n \u010cam\u00e1k",
+                "name": "Marián Čamák",
                 "github": "mcamak"
             },
             "trust_tier": "community",
@@ -5205,7 +5586,7 @@
             "name": "marshal",
             "display_name": "The Marshal (Stronghold Crusader)",
             "version": "1.2.1",
-            "description": "The Marshal voice lines from Stronghold Crusader \u2014 loyal European lord",
+            "description": "The Marshal voice lines from Stronghold Crusader — loyal European lord",
             "author": {
                 "name": "Marko Jevic",
                 "github": "koyev"
@@ -5369,11 +5750,11 @@
         },
         {
             "name": "milujipraci",
-            "display_name": "Miluji Pr\u00e1ci",
+            "display_name": "Miluji Práci",
             "version": "1.0.0",
-            "description": "Legendary quotes of Lubo\u0161 fixing Lakato\u0161.",
+            "description": "Legendary quotes of Luboš fixing Lakatoš.",
             "author": {
-                "name": "Franti\u0161ek Z\u00e1hora",
+                "name": "František Záhora",
                 "github": "arguit"
             },
             "trust_tier": "community",
@@ -5407,7 +5788,7 @@
             "version": "1.0.1",
             "description": "Villager sound pack from Minecraft.",
             "author": {
-                "name": "Eric Ker\u00e4nen",
+                "name": "Eric Keränen",
                 "github": "Mahamurahti"
             },
             "trust_tier": "community",
@@ -5485,7 +5866,7 @@
             "name": "modern-varied",
             "display_name": "Modern GUI",
             "version": "1.0.1",
-            "description": "Futuristic synth UI sounds \u2014 hightech confirms, cybernetic alerts, and power-up sweeps",
+            "description": "Futuristic synth UI sounds — hightech confirms, cybernetic alerts, and power-up sweeps",
             "author": {
                 "name": "Mark Chitty",
                 "github": "TechPdM"
@@ -5715,7 +6096,7 @@
             "name": "nezuai-varied",
             "display_name": "UI Sound Design",
             "version": "1.0.1",
-            "description": "Designed UI sound effects \u2014 whooshes, beeps, sweeps, and thuds for coding events",
+            "description": "Designed UI sound effects — whooshes, beeps, sweeps, and thuds for coding events",
             "author": {
                 "name": "Mark Chitty",
                 "github": "TechPdM"
@@ -5750,10 +6131,52 @@
             "updated": "2026-03-16"
         },
         {
+            "name": "nier-2b",
+            "display_name": "2B (Nier Automata)",
+            "version": "1.0.0",
+            "description": "English voices for 2B from Nier Automata",
+            "author": {
+                "name": "Chris Welcz",
+                "github": "enolive"
+            },
+            "trust_tier": "verified",
+            "categories": [
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "input.required",
+                "user.spam",
+                "session.end",
+                "task.progress",
+                "resource.limit"
+            ],
+            "language": "en",
+            "license": "CC-BY-SA-4.0",
+            "sound_count": 60,
+            "total_size_bytes": 1843200,
+            "source_repo": "enolive/openpeon-pack-nier-2b",
+            "source_ref": "v1.0.1",
+            "source_path": ".",
+            "manifest_sha256": "547f901bbbfcc1a9e3e672cc0bec7a76abc1c7da79ef67055489cb662e5209cc",
+            "tags": [
+                "gaming",
+                "nier automata",
+                "2b"
+            ],
+            "preview_sounds": [
+                "glory-to-mankind.mp3",
+                "emotions-are-prohibited.mp3",
+                "awaiting-further-orders.mp3"
+            ],
+            "added": "2026-05-08",
+            "updated": "2026-05-08"
+        },
+        {
             "name": "nightflame-minimal",
             "display_name": "Nightflame Menu UI",
             "version": "1.0.1",
-            "description": "Minimal UI sound effects pack \u2014 sweeps, whooshes, and buzzy tones for coding event feedback",
+            "description": "Minimal UI sound effects pack — sweeps, whooshes, and buzzy tones for coding event feedback",
             "author": {
                 "name": "Mark Chitty",
                 "github": "TechPdM"
@@ -5787,10 +6210,91 @@
             "updated": "2026-03-16"
         },
         {
+            "name": "nikke_e_h__6a1cb06b",
+            "display_name": "Nikke E.H.",
+            "version": "1.0.0",
+            "description": "sound pack of Nikke E.H.",
+            "author": {
+                "name": "LiRiu",
+                "github": "LiRiu"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "input.required",
+                "resource.limit"
+            ],
+            "language": "ko",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 19,
+            "total_size_bytes": 363102,
+            "source_repo": "LiRiu/NIKKE-E.H.-6a1cb06b-pack",
+            "source_ref": "v1.0.0",
+            "source_path": ".",
+            "manifest_sha256": "a57a8c9ec77237dda55ed88634ac160b9391875a268db949365918b703560819",
+            "tags": [
+                "nikke"
+            ],
+            "preview_sounds": [
+                "sounds/46.mp3",
+                "sounds/11.mp3",
+                "sounds/25.mp3",
+                "sounds/30.mp3",
+                "sounds/41.mp3",
+                "sounds/49.mp3"
+            ],
+            "added": "2026-04-14",
+            "updated": "2026-04-14"
+        },
+        {
+            "name": "nikke_e_h__99b110e0",
+            "display_name": "Nikke E.H. AI generated",
+            "version": "1.0.0",
+            "description": "sound pack of Nikke E.H. AI generated",
+            "author": {
+                "name": "LiRiu",
+                "github": "LiRiu"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "input.required",
+                "resource.limit"
+            ],
+            "language": "ko",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 16,
+            "total_size_bytes": 821760,
+            "source_repo": "LiRiu/NIKKE-E.H.-99b110e0-pack",
+            "source_ref": "v1.0.0",
+            "source_path": ".",
+            "manifest_sha256": "73ff1277e613253a761b0d6df5be8973de6ee2d330fb02406928dc88d638ee68",
+            "tags": [
+                "nikke",
+                "AI"
+            ],
+            "preview_sounds": [
+                "sounds/1.mp3",
+                "sounds/4.mp3",
+                "sounds/7.mp3",
+                "sounds/10.mp3",
+                "sounds/13.mp3",
+                "sounds/15.mp3"
+            ],
+            "added": "2026-04-15",
+            "updated": "2026-04-15"
+        },
+        {
             "name": "nizar",
             "display_name": "Nizar (Stronghold Crusader)",
             "version": "1.2.1",
-            "description": "Nizar voice lines from Stronghold Crusader \u2014 cunning assassin lord",
+            "description": "Nizar voice lines from Stronghold Crusader — cunning assassin lord",
             "author": {
                 "name": "Marko Jevic",
                 "github": "koyev"
@@ -6084,7 +6588,7 @@
             "name": "op-kurtlar-vadisi",
             "display_name": "Kurtlar Vadisi Sound Pack",
             "version": "1.1.0",
-            "description": "Kurtlar Vadisi Sound Pack (Episodes 1\u201397)",
+            "description": "Kurtlar Vadisi Sound Pack (Episodes 1–97)",
             "author": {
                 "name": "Ismail Sefa Nazlim",
                 "github": "maskapsiz"
@@ -6122,6 +6626,48 @@
             ],
             "added": "2026-02-12",
             "updated": "2026-03-10"
+        },
+        {
+            "name": "orb-ping",
+            "display_name": "Orb Ping",
+            "version": "1.0.2",
+            "description": "A peonping pack using sounds from Tools for Humanity's Orb.",
+            "author": {
+                "name": "Seán Olszewski",
+                "github": "SeanROlszewski"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "input.required",
+                "resource.limit",
+                "session.end",
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "task.progress"
+            ],
+            "language": "en",
+            "license": "fair-use",
+            "sound_count": 19,
+            "total_size_bytes": 6825880,
+            "source_repo": "SeanROlszewski/orb-peonping",
+            "source_ref": "v1.0.2",
+            "source_path": ".",
+            "manifest_sha256": "ffe02722306ad9e6a6964950bcdef351a3a80c7592e9453f2506aec46134048e",
+            "tags": [
+                "orb",
+                "worldcoin",
+                "tools-for-humanity",
+                "biometric",
+                "sci-fi"
+            ],
+            "preview_sounds": [
+                "sound_bootup.wav",
+                "sound_iris_scan_success.wav"
+            ],
+            "added": "2026-04-17",
+            "updated": "2026-04-17"
         },
         {
             "name": "orisa",
@@ -6167,9 +6713,9 @@
         },
         {
             "name": "otto",
-            "display_name": "\u7535\u68cdotto",
+            "display_name": "电棍otto",
             "version": "1.0.0",
-            "description": "\u5927\u5bb6\u597d\u554a\uff0c\u6211\u662f\u7535\u68cd",
+            "description": "大家好啊，我是电棍",
             "author": {
                 "name": "Bielelele",
                 "github": "Biatbang"
@@ -6196,8 +6742,8 @@
             "manifest_sha256": "0ce67cd3cc429661546ab708046eef15996df858c07261e8e440c81bf9a2097e",
             "tags": [
                 "otto",
-                "\u7535\u68cd",
-                "\u4faf\u56fd\u7389"
+                "电棍",
+                "侯国玉"
             ],
             "preview_sounds": [
                 "session_start_1.mp3",
@@ -6288,9 +6834,9 @@
         },
         {
             "name": "peasant_cz",
-            "display_name": "Lidsk\u00fd roln\u00edk (CZ)",
+            "display_name": "Lidský rolník (CZ)",
             "version": "1.0.0",
-            "description": "Lidsk\u00fd roln\u00edk (CZ) sound pack from Warcraft III",
+            "description": "Lidský rolník (CZ) sound pack from Warcraft III",
             "author": {
                 "name": "vojtabiberle",
                 "github": "vojtabiberle"
@@ -6488,9 +7034,9 @@
         },
         {
             "name": "peon_cz",
-            "display_name": "Or\u010d\u00ed pe\u00f3n (CZ)",
+            "display_name": "Orčí peón (CZ)",
             "version": "1.0.0",
-            "description": "Or\u010d\u00ed pe\u00f3n (CZ) sound pack from Warcraft III",
+            "description": "Orčí peón (CZ) sound pack from Warcraft III",
             "author": {
                 "name": "vojtabiberle",
                 "github": "vojtabiberle"
@@ -6772,7 +7318,7 @@
             "name": "philip",
             "display_name": "King Philip (Stronghold Crusader)",
             "version": "1.2.1",
-            "description": "King Philip voice lines from Stronghold Crusader \u2014 proud king of France",
+            "description": "King Philip voice lines from Stronghold Crusader — proud king of France",
             "author": {
                 "name": "Marko Jevic",
                 "github": "koyev"
@@ -6812,7 +7358,7 @@
             "name": "pig",
             "display_name": "The Pig (Stronghold Crusader)",
             "version": "1.2.1",
-            "description": "The Pig voice lines from Stronghold Crusader \u2014 brutal villain lord",
+            "description": "The Pig voice lines from Stronghold Crusader — brutal villain lord",
             "author": {
                 "name": "Marko Jevic",
                 "github": "koyev"
@@ -7054,7 +7600,7 @@
             "name": "protoss",
             "display_name": "Protoss (StarCraft)",
             "version": "1.0.0",
-            "description": "StarCraft Protoss voice lines and sound effects \u2014 en taro Adun!",
+            "description": "StarCraft Protoss voice lines and sound effects — en taro Adun!",
             "author": {
                 "name": "Cody Born",
                 "github": "codyborn"
@@ -7476,7 +8022,7 @@
             "name": "rat",
             "display_name": "The Rat (Stronghold Crusader)",
             "version": "1.2.1",
-            "description": "The Rat voice lines from Stronghold Crusader \u2014 scheming cowardly villain",
+            "description": "The Rat voice lines from Stronghold Crusader — scheming cowardly villain",
             "author": {
                 "name": "Marko Jevic",
                 "github": "koyev"
@@ -7643,7 +8189,7 @@
             "name": "richard",
             "display_name": "King Richard (Stronghold Crusader)",
             "version": "1.2.1",
-            "description": "King Richard voice lines from Stronghold Crusader \u2014 noble English crusader king",
+            "description": "King Richard voice lines from Stronghold Crusader — noble English crusader king",
             "author": {
                 "name": "Marko Jevic",
                 "github": "koyev"
@@ -7843,10 +8389,53 @@
             "updated": "2026-03-24"
         },
         {
+            "name": "rocky",
+            "display_name": "Rocky (Project Hail Mary)",
+            "version": "1.0.1",
+            "description": "Rocky the Eridian from Project Hail Mary, synthesized via Chatterbox voice cloning. Dropped articles, triple-word emphasis, signature 'question?' suffix.",
+            "author": {
+                "name": "Akshat1903",
+                "github": "Akshat1903"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "input.required",
+                "user.spam",
+                "resource.limit"
+            ],
+            "language": "en",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 58,
+            "total_size_bytes": 7677918,
+            "source_repo": "Akshat1903/rocky-peon-ping",
+            "source_ref": "v1.0.1",
+            "source_path": "rocky_pack",
+            "manifest_sha256": "858d70b007308c669815fb4d6dba60c36aed857ce17d39be2fbf60de71ead516",
+            "tags": [
+                "rocky",
+                "project-hail-mary",
+                "eridian",
+                "sci-fi",
+                "cloned-voice",
+                "chatterbox"
+            ],
+            "preview_sounds": [
+                "HelloFriend.wav",
+                "ScienceTime.wav",
+                "FistBumpUnderstand.wav"
+            ],
+            "added": "2026-04-24",
+            "updated": "2026-04-24"
+        },
+        {
             "name": "saladin",
             "display_name": "Saladin (Stronghold Crusader)",
             "version": "1.2.1",
-            "description": "Saladin voice lines from Stronghold Crusader \u2014 honourable sultan of Egypt",
+            "description": "Saladin voice lines from Stronghold Crusader — honourable sultan of Egypt",
             "author": {
                 "name": "Marko Jevic",
                 "github": "koyev"
@@ -7881,6 +8470,45 @@
             ],
             "added": "2026-03-01",
             "updated": "2026-03-03"
+        },
+        {
+            "name": "sanguosha-sound-pack",
+            "display_name": "Sanguosha Hero Voice Pack",
+            "version": "1.0.0",
+            "description": "A sound pack inspired by Sanguosha (三国杀 / Three Kingdoms Kill), the classic Chinese card game. Features authentic in-game hero voice lines — battles, stratagems, victories and defeats — mapped to AI coding tool events.",
+            "author": {
+                "name": "MFK",
+                "github": "MarkSunDev"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "input.required",
+                "resource.limit",
+                "session.end",
+                "task.progress",
+                "user.spam"
+            ],
+            "language": "zh",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 100,
+            "total_size_bytes": 1284409,
+            "source_repo": "MarkSunDev/MFK-peon",
+            "source_ref": "v1.0.0",
+            "source_path": ".",
+            "manifest_sha256": "469248b40c5ba8903552c845dc1cdcecd8a796d3a974eac5f348919503aa853b",
+            "tags": [
+                "gaming",
+                "sanguosha",
+                "three-kingdoms",
+                "chinese",
+                "card-game"
+            ],
+            "added": "2026-04-17",
+            "updated": "2026-04-17"
         },
         {
             "name": "sc2_abathur",
@@ -8102,10 +8730,53 @@
             "updated": "2026-02-20"
         },
         {
+            "name": "sc2_scv",
+            "display_name": "Emm's StarCraft II SCV",
+            "version": "1.0.1",
+            "description": "StarCraft II SCV sound pack — 44 sounds across all 7 CESP categories. Audio recorded from StarCraft II by Blizzard Entertainment.",
+            "author": {
+                "name": "emmanuel",
+                "github": "MrDoomBringer"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "input.required",
+                "resource.limit",
+                "user.spam"
+            ],
+            "language": "en",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 44,
+            "total_size_bytes": 1329668,
+            "source_repo": "MrDoomBringer/openpeon-sc2-scv",
+            "source_ref": "v1.0.1",
+            "source_path": ".",
+            "manifest_sha256": "468fbef3a9ba37601bc7a82cef536b8fd4dd7e5a7106bfd920f6f716ba48a62c",
+            "tags": [
+                "gaming",
+                "starcraft",
+                "starcraft2",
+                "sc2",
+                "blizzard",
+                "rts",
+                "terran"
+            ],
+            "preview_sounds": [
+                "SCVReady1.mp3",
+                "SCVReady2.mp3"
+            ],
+            "added": "2026-05-03",
+            "updated": "2026-05-03"
+        },
+        {
             "name": "sc2_scv_kr",
-            "display_name": "\uac74\uc124\ub85c\ubd07 SCV (StarCraft II, \ud55c\uad6d\uc5b4)",
+            "display_name": "건설로봇 SCV (StarCraft II, 한국어)",
             "version": "1.0.0",
-            "description": "\ud14c\ub780 \uac74\uc124\ub85c\ubd07(SCV) \ud55c\uad6d\uc5b4 \uc74c\uc131 \u2014 StarCraft II Korean voice lines",
+            "description": "테란 건설로봇(SCV) 한국어 음성 — StarCraft II Korean voice lines",
             "author": {
                 "name": "heecheonkim",
                 "github": "hekkim"
@@ -8353,7 +9024,7 @@
             "name": "sc_firebat",
             "display_name": "StarCraft Firebat",
             "version": "2.0.0",
-            "description": "StarCraft Firebat sound pack \u2014 17 SC1 voice lines across all 7 CESP categories, featuring 'Need a light?' and propane references",
+            "description": "StarCraft Firebat sound pack — 17 SC1 voice lines across all 7 CESP categories, featuring 'Need a light?' and propane references",
             "author": {
                 "name": "kschmidtjr1",
                 "github": "kschmidtjr1"
@@ -8506,7 +9177,7 @@
             "name": "sc_marine",
             "display_name": "StarCraft Marine",
             "version": "1.0.0",
-            "description": "StarCraft Marine sound pack \u2014 iconic lines including 'Rock 'n' roll!' and 'You want a piece of me, boy?'",
+            "description": "StarCraft Marine sound pack — iconic lines including 'Rock 'n' roll!' and 'You want a piece of me, boy?'",
             "author": {
                 "name": "harrymunro",
                 "github": "harrymunro"
@@ -8546,7 +9217,7 @@
             "name": "sc_medic",
             "display_name": "StarCraft Medic",
             "version": "2.0.0",
-            "description": "StarCraft Medic sound pack \u2014 16 SC1 voice lines across all 7 CESP categories, featuring 'He's dead, Jim' and medical humor",
+            "description": "StarCraft Medic sound pack — 16 SC1 voice lines across all 7 CESP categories, featuring 'He's dead, Jim' and medical humor",
             "author": {
                 "name": "kschmidtjr1",
                 "github": "kschmidtjr1"
@@ -8581,6 +9252,43 @@
             ],
             "added": "2026-02-12",
             "updated": "2026-02-26"
+        },
+        {
+            "name": "sc_probe",
+            "display_name": "Protoss Probe (StarCraft II)",
+            "version": "1.0.0",
+            "description": "Protoss Probe sound pack from StarCraft II",
+            "author": {
+                "name": "dmurai",
+                "github": "dmurai"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "input.required",
+                "resource.limit",
+                "session.end",
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "user.spam"
+            ],
+            "language": "en",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 20,
+            "total_size_bytes": 337029,
+            "source_repo": "dmurai/sc_probe",
+            "source_ref": "main",
+            "source_path": ".",
+            "manifest_sha256": "3ef59738bcfa1499826c7ee2aa2ccdd64c24a25ea996b59c47cc93f839b28974",
+            "tags": [
+                "gaming",
+                "starcraft",
+                "rts",
+                "blizzard"
+            ],
+            "added": "2026-04-18",
+            "updated": "2026-04-18"
         },
         {
             "name": "sc_raynor",
@@ -8623,7 +9331,7 @@
             "name": "sc_scv",
             "display_name": "StarCraft SCV",
             "version": "2.0.0",
-            "description": "StarCraft SCV sound pack \u2014 expanded with 19 sounds across all 7 CESP categories",
+            "description": "StarCraft SCV sound pack — expanded with 19 sounds across all 7 CESP categories",
             "author": {
                 "name": "harrymunro",
                 "github": "harrymunro"
@@ -8663,7 +9371,7 @@
             "name": "sc_tank",
             "display_name": "StarCraft Siege Tank",
             "version": "2.0.0",
-            "description": "StarCraft Siege Tank sound pack \u2014 14 SC1 voice lines across all 7 CESP categories, featuring Ride of the Valkyries and 'drop the hammer'",
+            "description": "StarCraft Siege Tank sound pack — 14 SC1 voice lines across all 7 CESP categories, featuring Ride of the Valkyries and 'drop the hammer'",
             "author": {
                 "name": "kschmidtjr1",
                 "github": "kschmidtjr1"
@@ -8851,6 +9559,45 @@
             "updated": "2026-02-25"
         },
         {
+            "name": "schlangemann",
+            "display_name": "Schlangemann",
+            "version": "0.1.3",
+            "description": "Sounds from Schlangemann YouTube videos",
+            "author": {
+                "name": "Fredrik Säfstén",
+                "github": "oliban"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "input.required",
+                "resource.limit",
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "user.spam"
+            ],
+            "language": "de",
+            "license": "fair-use",
+            "sound_count": 24,
+            "total_size_bytes": 932256,
+            "source_repo": "oliban/schlangemann-sounds",
+            "source_ref": "v0.1.3",
+            "source_path": ".",
+            "manifest_sha256": "73ccda5d16f58c7152157c2166776d8b5c0d8ec8c6fdedbd9dec3ce1fd86ad73",
+            "tags": [
+                "comedy",
+                "german",
+                "cabaret"
+            ],
+            "preview_sounds": [
+                "kinder-kinder.mp3",
+                "motorsaege.mp3"
+            ],
+            "added": "2026-05-02",
+            "updated": "2026-05-02"
+        },
+        {
             "name": "seinfeld_kramer",
             "display_name": "Kramer (Seinfeld)",
             "version": "1.0.0",
@@ -8936,7 +9683,7 @@
             "name": "sheriff",
             "display_name": "The Sheriff (Stronghold Crusader)",
             "version": "1.2.1",
-            "description": "The Sheriff voice lines from Stronghold Crusader \u2014 greedy corrupt villain",
+            "description": "The Sheriff voice lines from Stronghold Crusader — greedy corrupt villain",
             "author": {
                 "name": "Marko Jevic",
                 "github": "koyev"
@@ -9018,7 +9765,7 @@
             "name": "silicon_valley",
             "display_name": "Silicon Valley",
             "version": "2.2.0",
-            "description": "Quotes from Silicon Valley \u2014 Erlich, Gilfoyle, Russ Hanneman, Jian Yang. English + Russian dubbed by \u00ab\u041a\u0443\u0431\u0438\u043a \u0432 \u043a\u0443\u0431\u0438\u043a\u0435\u00bb (59 clips with swearing)",
+            "description": "Quotes from Silicon Valley — Erlich, Gilfoyle, Russ Hanneman, Jian Yang. English + Russian dubbed by «Кубик в кубике» (59 clips with swearing)",
             "author": {
                 "name": "rustam",
                 "github": "fortunto2"
@@ -9103,7 +9850,7 @@
             "name": "snake",
             "display_name": "The Snake (Stronghold Crusader)",
             "version": "1.2.1",
-            "description": "The Snake voice lines from Stronghold Crusader \u2014 treacherous villain lord",
+            "description": "The Snake voice lines from Stronghold Crusader — treacherous villain lord",
             "author": {
                 "name": "Marko Jevic",
                 "github": "koyev"
@@ -9356,53 +10103,10 @@
             "updated": "2026-02-12"
         },
         {
-            "name": "southpark-fr",
-            "display_name": "South Park Fr",
-            "version": "1.0.0",
-            "description": "Sons issus de la bo\u00eete \u00e0 South Park (VF Game One)",
-            "author": {
-                "name": "Cl\u00e9ment",
-                "github": "Telmalk"
-            },
-            "trust_tier": "community",
-            "categories": [
-                "session.start",
-                "task.acknowledge",
-                "task.complete",
-                "task.error",
-                "input.required",
-                "resource.limit",
-                "user.spam",
-                "session.end"
-            ],
-            "language": "fr",
-            "license": "CC-BY-NC-4.0",
-            "sound_count": 44,
-            "total_size_bytes": 2020601,
-            "source_repo": "Telmalk/peonping-southpark-fr",
-            "source_ref": "v1.0.0",
-            "source_path": ".",
-            "manifest_sha256": "4a2d3f8aa8f8180dc4f527efea2e43c134bc9f09df64592013cca075ab6ada07",
-            "tags": [
-                "south-park",
-                "french",
-                "comedy",
-                "tv"
-            ],
-            "preview_sounds": [
-                "sounds/howdy.mp3",
-                "sounds/respectemonautorite.mp3",
-                "sounds/ilsonttue.mp3"
-            ],
-            "added": "2026-02-18",
-            "updated": "2026-02-18",
-            "quality": "flagged"
-        },
-        {
             "name": "southpark_cartman",
             "display_name": "Cartman (South Park)",
             "version": "1.0.0",
-            "description": "Eric Cartman quotes for your Claude Code notifications. 25 AI-generated clips across 7 categories (FakeYou TTS \u2014 Eric Cartman Angry model).",
+            "description": "Eric Cartman quotes for your Claude Code notifications. 25 AI-generated clips across 7 categories (FakeYou TTS — Eric Cartman Angry model).",
             "author": {
                 "name": "bdrang",
                 "github": "BaraqD"
@@ -9445,7 +10149,7 @@
             "name": "speaki",
             "display_name": "Petite Speaki",
             "version": "1.0.0",
-            "description": "Petite Speaki voice pack from Trickcal Chibi Go \u2014 adorable Korean character sounds for your coding sessions",
+            "description": "Petite Speaki voice pack from Trickcal Chibi Go — adorable Korean character sounds for your coding sessions",
             "author": {
                 "name": "cjna",
                 "github": "CJNA"
@@ -9487,6 +10191,46 @@
             ],
             "added": "2026-02-17",
             "updated": "2026-02-17"
+        },
+        {
+            "name": "srpska-kinematografija",
+            "display_name": "Srpska kinematografija",
+            "version": "1.0.1",
+            "description": "Quotes from classic Serbian films — domaća kinematografija in your terminal",
+            "author": {
+                "name": "m1z23r",
+                "github": "m1z23r"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "resource.limit",
+                "input.required",
+                "user.spam"
+            ],
+            "language": "sr",
+            "license": "fair-use",
+            "sound_count": 7,
+            "total_size_bytes": 423160,
+            "source_repo": "m1z23r/openpeon-srpska-kinematografija",
+            "source_ref": "v1.0.1",
+            "source_path": ".",
+            "manifest_sha256": "1bdb4951b9bda24ea106886f9fe20292f9d8e8bf15538feb14c3027af378a1a2",
+            "tags": [
+                "movies",
+                "cinema",
+                "serbian",
+                "quotes"
+            ],
+            "preview_sounds": [
+                "sounds/session-start/quote.mp3",
+                "sounds/task-error/quote.mp3"
+            ],
+            "added": "2026-05-04",
+            "updated": "2026-05-04"
         },
         {
             "name": "st_worf",
@@ -9566,9 +10310,9 @@
         },
         {
             "name": "starrail-kafka-peon-pack",
-            "display_name": "\u5d29\u574f\u661f\u7a79\u94c1\u9053-\u5361\u8299\u5361\u8bed\u97f3\u5305",
+            "display_name": "崩坏星穹铁道-卡芙卡语音包",
             "version": "1.0.1",
-            "description": "\u5d29\u574f\u661f\u7a79\u94c1\u9053-\u5361\u8299\u5361\u8bed\u97f3\u5305",
+            "description": "崩坏星穹铁道-卡芙卡语音包",
             "author": {
                 "name": "0w0miki",
                 "github": "0w0miki"
@@ -9690,6 +10434,85 @@
             "updated": "2026-02-25"
         },
         {
+            "name": "storm-spirit",
+            "display_name": "Storm Spirit (Dota 2)",
+            "version": "1.0.0",
+            "description": "Dota 2 Storm Spirit voice lines — Raijin Thunderkeg cackling, denying, and storming through your terminal",
+            "author": {
+                "name": "m1z23r",
+                "github": "m1z23r"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "resource.limit",
+                "input.required",
+                "user.spam"
+            ],
+            "language": "en",
+            "license": "fair-use",
+            "sound_count": 34,
+            "total_size_bytes": 1309888,
+            "source_repo": "m1z23r/openpeon-storm",
+            "source_ref": "v1.0.0",
+            "source_path": ".",
+            "manifest_sha256": "f3a378f609a23315483ee90e4d26c46154832a597a383cfd65e4067987280a66",
+            "tags": [
+                "gaming",
+                "dota2",
+                "moba",
+                "valve"
+            ],
+            "preview_sounds": [
+                "sounds/session-start/arrived.mp3",
+                "sounds/task-error/denied.mp3"
+            ],
+            "added": "2026-04-28",
+            "updated": "2026-04-28"
+        },
+        {
+            "name": "stromberg",
+            "display_name": "Bernd Stromberg",
+            "version": "1.0.0",
+            "description": "Bernd Stromberg voice lines from the German TV series and films (2004–2014).",
+            "author": {
+                "name": "Heiko Does",
+                "github": "nekator"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "input.required",
+                "resource.limit",
+                "user.spam"
+            ],
+            "language": "de",
+            "license": "MIT",
+            "sound_count": 22,
+            "total_size_bytes": 1223148,
+            "source_repo": "nekator/stromberg-peon-ping",
+            "source_ref": "v1.0.0",
+            "source_path": ".",
+            "manifest_sha256": "84e40034800ef5f3325b31de30ed51c53e0127d9acfb3011051ba27b3667efd1",
+            "tags": [
+                "tv",
+                "german",
+                "comedy"
+            ],
+            "preview_sounds": [
+                "psychokrieg.mp3",
+                "wattepusten.mp3"
+            ],
+            "added": "2026-04-27",
+            "updated": "2026-04-27"
+        },
+        {
             "name": "stronghold-german-genie",
             "display_name": "Stronghold Genie German",
             "version": "1.0.0",
@@ -9732,10 +10555,263 @@
             "updated": "2026-03-20"
         },
         {
+            "name": "stronghold-peasant-es",
+            "display_name": "Stronghold Peasant (ES)",
+            "version": "1.0.1",
+            "description": "Spanish peasant voice lines from Stronghold HD (Firefly Studios) — medieval worker responding to your commands",
+            "author": {
+                "name": "Matias Saggiorato",
+                "github": "msaggiorato"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "input.required",
+                "resource.limit",
+                "user.spam"
+            ],
+            "language": "es",
+            "license": "fair-use",
+            "sound_count": 30,
+            "total_size_bytes": 1633566,
+            "source_repo": "msaggiorato/peon-stronghold-es",
+            "source_ref": "v1.0.1",
+            "source_path": ".",
+            "manifest_sha256": "d96bf731575bf3b37498fa8a08a39baaf0cbd45a61999d5543e02b74cfb56c15",
+            "tags": [
+                "gaming",
+                "stronghold",
+                "rts",
+                "firefly",
+                "spanish",
+                "medieval"
+            ],
+            "preview_sounds": [
+                "General_Startgame.wav",
+                "General_Victory1.wav"
+            ],
+            "added": "2026-04-08",
+            "updated": "2026-04-08"
+        },
+        {
+            "name": "sts2_ancients",
+            "display_name": "Slay the Spire 2 Ancients",
+            "version": "1.0.1",
+            "description": "DARV, NEOW, NONUPEIPE, and TANX voice lines from Slay the Spire 2 — a pantheon of four of the nine Ancients, with the rest silent until Mega Crit patches them in",
+            "author": {
+                "name": "flavono123",
+                "github": "flavono123"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "input.required",
+                "resource.limit",
+                "user.spam"
+            ],
+            "language": "en",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 62,
+            "total_size_bytes": 19874504,
+            "source_repo": "flavono123/sts2-ancients-peon",
+            "source_ref": "v1.0.1",
+            "source_path": ".",
+            "manifest_sha256": "2e77fdef0553ec04418f02c4bbfc1d77ab234fab785f0e343d30531284469b5a",
+            "tags": [
+                "gaming",
+                "slay-the-spire",
+                "mega-crit",
+                "roguelike",
+                "deckbuilder",
+                "ancients"
+            ],
+            "preview_sounds": [
+                "darv_pain_1.wav",
+                "nonupeipe_welcome_1.wav"
+            ],
+            "added": "2026-04-24",
+            "updated": "2026-04-24"
+        },
+        {
+            "name": "sts2_regent",
+            "display_name": "Slay the Spire 2 Regent",
+            "version": "1.0.1",
+            "description": "Regent voice lines from Slay the Spire 2 — a playable character voiced by Mark Ota, with greetings, impatient quips, triumphant cheers, and hurt cries across three intensity levels",
+            "author": {
+                "name": "flavono123",
+                "github": "flavono123"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "input.required",
+                "resource.limit",
+                "user.spam"
+            ],
+            "language": "en",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 70,
+            "total_size_bytes": 13458124,
+            "source_repo": "flavono123/sts2-regent-peon",
+            "source_ref": "v1.0.1",
+            "source_path": ".",
+            "manifest_sha256": "bae40409e9d6ef3089c47710331bd89cc894a03e41467b0702cb8aeed97732ce",
+            "tags": [
+                "gaming",
+                "slay-the-spire",
+                "mega-crit",
+                "roguelike",
+                "deckbuilder",
+                "regent",
+                "playable-character"
+            ],
+            "preview_sounds": [
+                "regent_greeting_1.wav",
+                "regent_impatient_1.wav"
+            ],
+            "added": "2026-04-24",
+            "updated": "2026-04-24"
+        },
+        {
+            "name": "sts2_shopkeeper",
+            "display_name": "Slay the Spire 2 Shop Keeper",
+            "version": "1.0.1",
+            "description": "Merchant and Reverse Merchant voice lines from Slay the Spire 2 — shop keeper grunts, thanks, and disappointed grumbles",
+            "author": {
+                "name": "flavono123",
+                "github": "flavono123"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "input.required",
+                "resource.limit",
+                "user.spam"
+            ],
+            "language": "en",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 27,
+            "total_size_bytes": 4157862,
+            "source_repo": "flavono123/sts2-shopkeeper-peon",
+            "source_ref": "v1.0.1",
+            "source_path": ".",
+            "manifest_sha256": "ef94dac31d76ddf89ccff3aa8973084559a09cba7d51f72af54c49f59df27d44",
+            "tags": [
+                "gaming",
+                "slay-the-spire",
+                "mega-crit",
+                "roguelike",
+                "deckbuilder"
+            ],
+            "preview_sounds": [
+                "merchant_welcome_1.wav",
+                "merchant_disappointment_1.wav"
+            ],
+            "added": "2026-04-22",
+            "updated": "2026-04-24"
+        },
+        {
+            "name": "sts2_the_kin",
+            "display_name": "Slay the Spire 2 The Kin",
+            "version": "1.0.1",
+            "description": "The Kin (kin_minion + kin_leader) boss voice lines from Slay the Spire 2 — cult chants, rallies, and death cries",
+            "author": {
+                "name": "flavono123",
+                "github": "flavono123"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "input.required",
+                "resource.limit",
+                "user.spam"
+            ],
+            "language": "en",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 43,
+            "total_size_bytes": 7080230,
+            "source_repo": "flavono123/sts2-the-kin-peon",
+            "source_ref": "v1.0.1",
+            "source_path": ".",
+            "manifest_sha256": "c363791ade2ec65f87d4e62a458383f6a4d26d0d6dddcde6a8ccc324f1db8f98",
+            "tags": [
+                "gaming",
+                "slay-the-spire",
+                "mega-crit",
+                "roguelike",
+                "deckbuilder",
+                "the-kin",
+                "boss"
+            ],
+            "preview_sounds": [
+                "kin_leader_rally_1.wav",
+                "kin_minion_hurt_1.wav"
+            ],
+            "added": "2026-04-24",
+            "updated": "2026-04-24"
+        },
+        {
+            "name": "sts2_twotailrats",
+            "display_name": "Slay the Spire 2 Two-Tailed Rats",
+            "version": "1.0.1",
+            "description": "Two-Tailed Rats monster voice lines from Slay the Spire 2 — hurt yelps, attack snarls, and death squeaks voiced by Mars Orach",
+            "author": {
+                "name": "flavono123",
+                "github": "flavono123"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "input.required",
+                "resource.limit",
+                "user.spam"
+            ],
+            "language": "en",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 37,
+            "total_size_bytes": 5919430,
+            "source_repo": "flavono123/sts2-twotailrats-peon",
+            "source_ref": "v1.0.1",
+            "source_path": ".",
+            "manifest_sha256": "e28724a20aa4d782a7fdb3dc632fc9ede25d9fbfebbd4c7c160e5367d5ff97cf",
+            "tags": [
+                "gaming",
+                "slay-the-spire",
+                "mega-crit",
+                "roguelike",
+                "deckbuilder",
+                "monster"
+            ],
+            "preview_sounds": [
+                "twotailrats_summon_1.wav",
+                "twotailrats_hurt_1.wav"
+            ],
+            "added": "2026-04-24",
+            "updated": "2026-04-24"
+        },
+        {
             "name": "sultan",
             "display_name": "The Sultan (Stronghold Crusader)",
             "version": "1.2.1",
-            "description": "The Sultan voice lines from Stronghold Crusader \u2014 powerful desert sultan",
+            "description": "The Sultan voice lines from Stronghold Crusader — powerful desert sultan",
             "author": {
                 "name": "Marko Jevic",
                 "github": "koyev"
@@ -9941,9 +11017,9 @@
         },
         {
             "name": "teemo-kr",
-            "display_name": "\ud2f0\ubaa8 (\ud55c\uad6d\uc5b4)",
+            "display_name": "티모 (한국어)",
             "version": "1.0.1",
-            "description": "\ub9ac\uadf8 \uc624\ube0c \ub808\uc804\ub4dc 2024 ASU \ud2f0\ubaa8 \ud55c\uad6d\uc5b4 \uc74c\uc131\ud329. \ubc34\ub4e4\uc2dc\ud2f0 \uc815\ucc30\ub300\uc7a5 \ud2f0\ubaa8 \ucd9c\ub3d9!",
+            "description": "리그 오브 레전드 2024 ASU 티모 한국어 음성팩. 밴들시티 정찰대장 티모 출동!",
             "author": {
                 "name": "hphannah",
                 "github": "hphannah"
@@ -9984,7 +11060,7 @@
             "name": "tekken3_announcer",
             "display_name": "Announcer (Tekken 3)",
             "version": "1.0.0",
-            "description": "Tekken 3 announcer voice lines \u2014 Fight, K.O., You win!, and more.",
+            "description": "Tekken 3 announcer voice lines — Fight, K.O., You win!, and more.",
             "author": {
                 "name": "rootbarb",
                 "github": "rootbarb"
@@ -10388,6 +11464,48 @@
             "updated": "2026-03-11"
         },
         {
+            "name": "tiberian-sun-cabal",
+            "display_name": "Tiberian Sun CABAL",
+            "version": "1.0.1",
+            "description": "CABAL - Tiberian Sun (only uses voicelines from Tiberian Sun CABAL)",
+            "author": {
+                "name": "Gus El Khoury Seoane",
+                "github": "gustakasn0v"
+            },
+            "trust_tier": "verified",
+            "categories": [
+                "input.required",
+                "resource.limit",
+                "session.end",
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "user.spam"
+            ],
+            "language": "en",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 43,
+            "total_size_bytes": 12334039,
+            "source_repo": "gustakasn0v/openpeon-tiberian-sun-cabal",
+            "source_ref": "v1.0.1",
+            "source_path": ".",
+            "manifest_sha256": "b4898c9b2d34d1c91de80c2d6f404e67d5b48be81b5fa27f310be974ee100806",
+            "tags": [
+                "cabal",
+                "gaming",
+                "command-and-conquer",
+                "tiberian-sun",
+                "rts",
+                "westwood"
+            ],
+            "preview_sounds": [
+                "sounds/establishing_battlefield_control_standby.WAV"
+            ],
+            "added": "2026-04-10",
+            "updated": "2026-04-10"
+        },
+        {
             "name": "tiberian-sun-eva",
             "display_name": "Tiberian Sun EVA",
             "version": "1.0.3",
@@ -10611,7 +11729,7 @@
                 "user.spam"
             ],
             "language": "en",
-            "license": "All audio \u00a9 Riot Games \u2014 personal/non-commercial use only",
+            "license": "All audio © Riot Games — personal/non-commercial use only",
             "sound_count": 68,
             "total_size_bytes": 2320270,
             "source_repo": "valer23/openpeon-tryndamere-pack",
@@ -10674,6 +11792,45 @@
             ],
             "added": "2026-03-12",
             "updated": "2026-03-12"
+        },
+        {
+            "name": "tywin-lannister",
+            "display_name": "Tywin Lannister",
+            "version": "1.1.1",
+            "description": "Sound pack featuring Tywin Lannister, Lord of Casterly Rock and Hand of the King. Some voice lines are AI-generated.",
+            "author": {
+                "name": "dmltdev",
+                "github": "dmltdev"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "input.required",
+                "resource.limit",
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "user.spam"
+            ],
+            "language": "en",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 32,
+            "total_size_bytes": 2414746,
+            "source_repo": "dmltdev/openpeon-tywin-lannister",
+            "source_ref": "v1.1.1",
+            "source_path": ".",
+            "manifest_sha256": "a1db2b308c042c52b6c2443de668ecc3f73f780afafe7d04be2bd699d6e7a6d2",
+            "tags": [
+                "gaming",
+                "game-of-thrones",
+                "tv"
+            ],
+            "preview_sounds": [
+                "any-man-who-must-say-i-am-the-king-is-no-true-king.mp3",
+                "try-harder.mp3"
+            ],
+            "added": "2026-05-09",
+            "updated": "2026-05-10"
         },
         {
             "name": "vendetta",
@@ -10796,7 +11953,7 @@
             "name": "warcraft3-czech",
             "display_name": "Warcraft III - Czech Peasant & Knight",
             "version": "1.0.0",
-            "description": "Warcraft III Peasant & Knight sound alerts for Claude Code. Czech dubbed voices from the iconic RTS. Hur\u00e1\u00e1\u00e1\u00e1 do pr\u00e1ce!",
+            "description": "Warcraft III Peasant & Knight sound alerts for Claude Code. Czech dubbed voices from the iconic RTS. Huráááá do práce!",
             "author": {
                 "name": "Tomas Pflanzer",
                 "github": "gizmax"
@@ -10836,7 +11993,7 @@
             "name": "warcraft3-mix",
             "display_name": "Warcraft III Mix CZ",
             "version": "1.0.0",
-            "description": "Mix ikonick\u00fdch \u010desk\u00fdch hl\u00e1\u0161ek z Warcraft III od r\u016fzn\u00fdch jednotek a hrdin\u016f.",
+            "description": "Mix ikonických českých hlášek z Warcraft III od různých jednotek a hrdinů.",
             "author": {
                 "name": "SgtMarmite",
                 "github": "SgtMarmite"
@@ -10877,7 +12034,7 @@
             "name": "wazir",
             "display_name": "The Wazir (Stronghold Crusader)",
             "version": "1.2.1",
-            "description": "The Wazir voice lines from Stronghold Crusader \u2014 scheming Arabian lord",
+            "description": "The Wazir voice lines from Stronghold Crusader — scheming Arabian lord",
             "author": {
                 "name": "Marko Jevic",
                 "github": "koyev"
@@ -11035,9 +12192,9 @@
         },
         {
             "name": "wc2_peon_ru",
-            "display_name": "\u041e\u0440\u043a-\u0431\u0430\u0442\u0440\u0430\u043a (Russian)",
+            "display_name": "Орк-батрак (Russian)",
             "version": "1.0.1",
-            "description": "\u041e\u0440\u043a-\u0431\u0430\u0442\u0440\u0430\u043a \u0438\u0437 Warcraft II (\u0440\u0443\u0441\u0441\u043a\u0430\u044f \u043e\u0437\u0432\u0443\u0447\u043a\u0430 \u043e\u0442 \u0421\u041f\u041a)",
+            "description": "Орк-батрак из Warcraft II (русская озвучка от СПК)",
             "author": {
                 "name": "Artyom Mezin",
                 "github": "Sogl"
@@ -11335,7 +12492,7 @@
             "name": "wc3_lich",
             "display_name": "Undead Lich (Warcraft III)",
             "version": "1.0.0",
-            "description": "Undead Lich hero and Kel'Thuzad voice lines from Warcraft III \u2014 44 sounds across both characters",
+            "description": "Undead Lich hero and Kel'Thuzad voice lines from Warcraft III — 44 sounds across both characters",
             "author": {
                 "name": "iamunhoz",
                 "github": "iamunhoz"
@@ -11500,7 +12657,7 @@
             "name": "wolf",
             "display_name": "The Wolf (Stronghold Crusader)",
             "version": "1.2.1",
-            "description": "The Wolf voice lines from Stronghold Crusader \u2014 ruthless villain lord",
+            "description": "The Wolf voice lines from Stronghold Crusader — ruthless villain lord",
             "author": {
                 "name": "Marko Jevic",
                 "github": "koyev"
@@ -11535,46 +12692,6 @@
             ],
             "added": "2026-03-01",
             "updated": "2026-03-03"
-        },
-        {
-            "name": "wolf-et-pack",
-            "display_name": "Wolf:ET Pack",
-            "version": "1.0.0",
-            "description": "Wolfenstein: Enemy Territory HQ command voiceovers \u2014 Allied and Axis variants",
-            "author": {
-                "name": "Graham Mackie",
-                "github": "gmackie"
-            },
-            "trust_tier": "community",
-            "categories": [
-                "session.start",
-                "task.acknowledge",
-                "task.complete",
-                "task.error",
-                "input.required",
-                "resource.limit"
-            ],
-            "language": "en",
-            "license": "CC-BY-NC-4.0",
-            "sound_count": 186,
-            "total_size_bytes": 22234324,
-            "source_repo": "gmackie/wolf-et-pack",
-            "source_ref": "v1.0.0",
-            "source_path": ".",
-            "manifest_sha256": "23e34efeaf2238d3aface0c2a4c85f6af6440fac57fe42375919feda5c0f4ba4",
-            "tags": [
-                "gaming",
-                "fps",
-                "wolfenstein",
-                "splash-damage"
-            ],
-            "preview_sounds": [
-                "sounds/ack/allies/hq_dynplanted_a.wav",
-                "sounds/complete/allies/hq_objdest.wav"
-            ],
-            "added": "2026-02-13",
-            "updated": "2026-02-13",
-            "quality": "flagged"
         },
         {
             "name": "worms-armageddon",
@@ -11613,6 +12730,51 @@
             ],
             "added": "2026-02-19",
             "updated": "2026-02-19"
+        },
+        {
+            "name": "worms-armageddon-fi",
+            "display_name": "Worms Armageddon (FI)",
+            "version": "2.1.1",
+            "description": "Legendary voices from Worms Armageddon in the Finnish language",
+            "author": {
+                "name": "rennehir",
+                "github": "rennehir"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "session.start",
+                "session.end",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "task.start",
+                "input.required",
+                "resource.limit",
+                "notification"
+            ],
+            "language": "fi",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 54,
+            "total_size_bytes": 15587994,
+            "source_repo": "rennehir/openpeon-finnish-worms",
+            "source_ref": "v2.1.1",
+            "source_path": ".",
+            "manifest_sha256": "ce24277d8f3b6a0da0136190127fdde889e438e848394501e349499b6cb128c4",
+            "tags": [
+                "gaming",
+                "strategy",
+                "worms",
+                "team17",
+                "comedy",
+                "finnish"
+            ],
+            "preview_sounds": [
+                "sounds/bummer.ogg",
+                "sounds/comeonthen.ogg",
+                "sounds/yessir.ogg"
+            ],
+            "added": "2026-04-09",
+            "updated": "2026-04-13"
         },
         {
             "name": "worms-armageddon-ptbr",
@@ -11695,7 +12857,7 @@
             "name": "wrecking_ball",
             "display_name": "Wrecking Ball (Overwatch)",
             "version": "1.0.0",
-            "description": "Hammond / Wrecking Ball voice lines from Overwatch \u2014 the champion hamster pilot",
+            "description": "Hammond / Wrecking Ball voice lines from Overwatch — the champion hamster pilot",
             "author": {
                 "name": "wahidfaird",
                 "github": "wahidfaird"
@@ -11735,7 +12897,7 @@
         },
         {
             "name": "yasuo-pack",
-            "display_name": "Yasuo(\u4e9a\u7d22)",
+            "display_name": "Yasuo(亚索)",
             "version": "1.1.0",
             "description": "Yasuo voice lines from League of Legends (Chinese voice version)",
             "author": {
@@ -11898,6 +13060,45 @@
             "updated": "2026-03-24"
         },
         {
+            "name": "zoe-lor",
+            "display_name": "Zoe (LoR) Sound Pack",
+            "version": "1.0.0",
+            "description": "A sound pack based on Zoe from Legends of Runeterra.",
+            "author": {
+                "name": "PompolutZ",
+                "github": "PompolutZ"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "input.required",
+                "resource.limit"
+            ],
+            "language": "en",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 21,
+            "total_size_bytes": 9159258,
+            "source_repo": "PompolutZ/openpeon-zoe-lor",
+            "source_ref": "v1.0.0",
+            "source_path": ".",
+            "manifest_sha256": "309e7a3d721c059a487736979b9565a27548680a5ae102bfd39abdd2e9e8bf22",
+            "tags": [
+                "gaming",
+                "lor",
+                "runeterra",
+                "riot"
+            ],
+            "preview_sounds": [
+                "start-zoe-sparkly.wav",
+                "done-zoe-sparkles.wav"
+            ],
+            "added": "2026-04-06",
+            "updated": "2026-04-06"
+        },
+        {
             "name": "zoolander_derek",
             "display_name": "Derek Zoolander",
             "version": "1.0.0",
@@ -11981,7 +13182,45 @@
             ],
             "added": "2026-02-25",
             "updated": "2026-02-25"
+        },
+        {
+            "name": "zugzug",
+            "display_name": "Orcs (Warcraft II)",
+            "version": "1.1.0",
+            "description": "A sound pack inspired by Warcraft Orc responses",
+            "author": {
+                "name": "dmurai",
+                "github": "dmurai"
+            },
+            "trust_tier": "community",
+            "categories": [
+                "input.required",
+                "resource.limit",
+                "session.end",
+                "session.start",
+                "task.acknowledge",
+                "task.complete",
+                "task.error",
+                "task.progress",
+                "user.spam"
+            ],
+            "language": "en",
+            "license": "CC-BY-NC-4.0",
+            "sound_count": 21,
+            "total_size_bytes": 234020,
+            "source_repo": "dmurai/zugzug",
+            "source_ref": "v1.1.0",
+            "source_path": ".",
+            "manifest_sha256": "f5028d5e9e7ed26435a432aee2a8f85878e74d6a4cf93dff0c5006b3650401f5",
+            "tags": [
+                "gaming",
+                "warcraft",
+                "rts",
+                "blizzard"
+            ],
+            "added": "2026-04-11",
+            "updated": "2026-04-17"
         }
     ],
-    "total_packs": 294
+    "total_packs": 323
 }

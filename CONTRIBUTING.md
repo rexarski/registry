@@ -1,5 +1,7 @@
 # Contributing to the PeonPing Registry
 
+> **Authoring with an agent?** Paste [openpeon/AUTHOR.md](https://github.com/PeonPing/openpeon/blob/main/AUTHOR.md) into your agentic harness (Claude Code, Codex, Cursor, opencode, etc.) for an end-to-end walkthrough that covers everything below plus install, scaffold, validate, and local testing.
+
 ## Adding a pack
 
 ### 1. Create your pack repo
